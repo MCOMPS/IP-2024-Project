@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Home Page</title>
 </head>
 <body>
-	<a href="/form">Calculate your BMI !!!</a>
+	
 </body>
 </html>

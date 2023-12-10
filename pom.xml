@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>IP2024</groupId>
-	<artifactId>springweb001</artifactId>
+	<artifactId>IP2024ProjectMBIP</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springweb001 Maven Webapp</name>
+	<name>IP2024ProjectMBIP Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -44,6 +44,6 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>springweb001</finalName>
+		<finalName>IP2024ProjectMBIP</finalName>
 	</build>
 </project>
