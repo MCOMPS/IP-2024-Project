@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <form action="RecyclingActivity.html">
-        <fieldset>
-          <legend>Water Consumption (2/5)</legend>
-          <label for="household-water-usage">Household Water Usage*</label>
-          <input type="number" id="household-water-usage" name="household-water-usage" required><br>
-          <label for="outdoor-water-usage">Outdoor Water Usage*</label>
-          <input type="number" id="outdoor-water-usage" name="outdoor-water-usage" required><br>
-          <button type="submit" onclick="">Next</button>
-          <button type="button" onclick="window.history.back()">Back</button>
-        </fieldset>
-    </form>
+    <div class="container">
+        <div>
+            <form id="FormBox"  action="RecyclingActivity.html">
+                <div class="leg">
+                    <legend>Water Consumption (2/5)</legend>
+                </div>
+                <div class="form_data_box">
+                    <label for="household-water-usage">Household Water Usage*</label>
+                <input type="number" id="household-water-usage" name="household-water-usage" required><br>
+                <label for="outdoor-water-usage">Outdoor Water Usage*</label>
+                <input type="number" id="outdoor-water-usage" name="outdoor-water-usage" required><br>
+                </div>
+                <div class="buttoms">
+                    <button type="submit" style="margin-right: 50px;" onclick="">Next</button>
+                <button type="button" onclick="window.history.back()">Back</button>
+                </div>
+                
+                
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
-
-
